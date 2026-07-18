@@ -8,7 +8,7 @@ Original file is located at
 """
 
 from google import genai
-client = genai.Client(api_key=" AIzaSyAJi-8oQUJl9I8rDDaoTcMa6lX20ebrT88")
+client = genai.Client(api_key=" ")
 
 response = client.models.generate_content(
     model='gemini-2.5-flash',
